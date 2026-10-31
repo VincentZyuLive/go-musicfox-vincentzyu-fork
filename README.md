@@ -15,6 +15,12 @@ go-musicfox 是用 Go 写的又一款网易云音乐命令行客户端，支持�
 ------------------------------
 ## 预览
 
+<p align="center">
+  <img src="previews/preview.obs.html.overlay.png" alt="OBS HTML Overlay preview" width="100%">
+</p>
+
+<p align="center">go-musicfox 外部 API 与 OBS HTML Overlay 实机预览</p>
+
 <video src="https://github.com/user-attachments/assets/3a4d1011-14f2-43bb-b70a-1392b7f8ec04"></video>
 
 <video src="https://github.com/user-attachments/assets/4f771321-0529-45a9-89ce-6a96e7d8164f"></video>
