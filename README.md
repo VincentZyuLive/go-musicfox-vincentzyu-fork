@@ -10,6 +10,6 @@
 
 [点击跳转到阅读上游仓库 README →](https://github.com/go-musicfox/go-musicfox#readme)
 
-## OBS Overlay 预览
+## 效果预览
 
 ![go-musicfox external API 与 OBS Overlay 实机预览](previews/preview.obs.html.overlay.png)
