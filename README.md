@@ -2,6 +2,10 @@
 
 go-musicfox 是用 Go 写的又一款网易云音乐命令行客户端，支持各种音质级别、UnblockNeteaseMusic、Last.fm、MPRIS 和 macOS 交互响应（睡眠暂停、蓝牙耳机连接断开响应和菜单栏控制等）等功能特性，以及 DLNA 投送。
 
+> [!TIP]
+> 这是 VincentZyu 维护的自用版本，保留上游 go-musicfox 的 CLI 与播放能力，并额外维护 OBS / SPlayer-Next 兼容 API、个人品牌和本地直播工作流。上游 PR 仍保持原版视觉与最小改动。
+> 组织主页：[VincentZyuLive](https://github.com/VincentZyuLive)
+
 [官网](https://musicfox.anhoder.com) | [Icon](https://github.com/go-musicfox/go-musicfox-icon)
 
 [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/go-musicfox/go-musicfox) ![GitHub repo size](https://img.shields.io/github/repo-size/go-musicfox/go-musicfox) ![GitHub](https://img.shields.io/github/license/go-musicfox/go-musicfox) ![Last Tag](https://badgen.net/github/tag/go-musicfox/go-musicfox) ![GitHub last commit](https://badgen.net/github/last-commit/go-musicfox/go-musicfox) ![GitHub All Releases](https://img.shields.io/github/downloads/go-musicfox/go-musicfox/total)
