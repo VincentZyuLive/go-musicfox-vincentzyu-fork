@@ -1,0 +1,3 @@
+# Include Markdown files in GitHub language statistics
+*.md linguist-documentation=false linguist-detectable=true linguist-language=Markdown
+*.markdown linguist-documentation=false linguist-detectable=true linguist-language=Markdown
