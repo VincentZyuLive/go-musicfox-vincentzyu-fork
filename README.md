@@ -65,6 +65,7 @@
 ### Windows
 
 ```powershell
+# 从 https://go.dev/dl/ 安装 Go 1.26+，并确保已安装 C 编译器（如 MinGW-w64）
 git clone https://github.com/VincentZyuLive/go-musicfox-vincentzyu-fork.git
 cd go-musicfox-vincentzyu-fork
 powershell -NoProfile -ExecutionPolicy Bypass -File .\hack\build.ps1 build -BuildTags "enable_global_hotkey,purego"
@@ -84,7 +85,8 @@ sudo apt install -y git build-essential libflac-dev libasound2-dev
 git clone https://github.com/VincentZyuLive/go-musicfox-vincentzyu-fork.git
 cd go-musicfox-vincentzyu-fork
 BUILD_TAGS="enable_global_hotkey,purego" ./hack/build.sh build
-sudo install -Dm755 bin/musicfox /path/to/musicfox-vincentzyu-fork/musicfox-vincentzyu-fork
-# 将 /path/to/musicfox-vincentzyu-fork 加入 PATH，并重新打开终端
+INSTALL_DIR="/path/to/musicfox-vincentzyu-fork"
+sudo install -Dm755 bin/musicfox "$INSTALL_DIR/musicfox-vincentzyu-fork"
+# 将 $INSTALL_DIR 加入 PATH，并重新打开终端
 musicfox-vincentzyu-fork --version
 ```
